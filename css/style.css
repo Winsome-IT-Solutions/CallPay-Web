@@ -484,7 +484,7 @@ button:focus {
   width: 300px;
 }
 
-#app-instructions-container h2::after {
+#app-instructions-container h1::after {
   content: "";
   border-bottom: 4px solid#3bb6ef;
   padding-right: 10px;
@@ -496,7 +496,7 @@ button:focus {
   width: 60px;
 }
 
-#app-instructions-container h2 {
+#app-instructions-container h1 {
   text-align: center;
   color: #666666;
   font-size: 32px;
