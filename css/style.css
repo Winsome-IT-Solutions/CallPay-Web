@@ -102,6 +102,7 @@ button:focus {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #6d6b6bee !important;
   background-color: #6d6b6bee;
   color: #ffffff;
   padding: 14px 0;
@@ -888,4 +889,50 @@ button:focus {
   position: fixed;
   width: 50px;
   cursor: pointer;
+}
+.container-blog {
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.newcss {
+  font-size: 2rem;
+  font-family: "Oswald-Regular";
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #666666;
+  text-align: center;
+  position: relative;
+}
+.newcss::after {
+  content: "";
+  border-bottom: 4px solid#3bb6ef;
+  padding-right: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 60px;
+}
+.newcssuser {
+  font-size: 2rem;
+  font-family: "Oswald-Regular";
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #161515;
+  text-align: center;
+  position: relative;
+}
+.newcssuser::after {
+  content: "";
+  border-bottom: 4px solid#3bb6ef;
+  padding-right: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 60px;
 }
