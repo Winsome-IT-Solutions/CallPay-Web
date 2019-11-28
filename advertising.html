@@ -22,7 +22,17 @@
     <link rel="shortcut icon" href="img/CallPay_AppIcon-11.png" />
 
     <!-- Template's Stylesheets -->
-
+    <script type="text/javascript">
+      function add_chatinline() {
+        var hccid = 20718415;
+        var nt = document.createElement("script");
+        nt.async = true;
+        nt.src = "https://mylivechat.com/chatinline.aspx?hccid=" + hccid;
+        var ct = document.getElementsByTagName("script")[0];
+        ct.parentNode.insertBefore(nt, ct);
+      }
+      add_chatinline();
+    </script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

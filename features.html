@@ -30,7 +30,17 @@
     <link rel="stylesheet" href="js/loaders/loader.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/footer.css" />
-
+    <script type="text/javascript">
+      function add_chatinline() {
+        var hccid = 20718415;
+        var nt = document.createElement("script");
+        nt.async = true;
+        nt.src = "https://mylivechat.com/chatinline.aspx?hccid=" + hccid;
+        var ct = document.getElementsByTagName("script")[0];
+        ct.parentNode.insertBefore(nt, ct);
+      }
+      add_chatinline();
+    </script>
     <!-- Template's Stylesheets END -->
   </head>
   <body>
