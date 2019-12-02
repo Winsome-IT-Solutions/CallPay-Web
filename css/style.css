@@ -890,12 +890,98 @@ button:focus {
   width: 50px;
   cursor: pointer;
 }
+/* Blog */
 .container-blog {
   margin-left: 40px;
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.container-blog h1 {
+  padding-top: 55px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bolder;
+  font-family: "Century Gothic";
+}
+.container-blog h2 {
+  padding-top: 55px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: bolder;
+  font-family: "Bahnschrift", Condensed;
+}
+.container-blog p {
+  font-size: 1.5rem;
+  padding-left: 60px;
+  font-family: "Century Gothic";
+  color: grey;
+}
+.container-blog button {
+  margin-left: 60px;
+  margin-top: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: black;
+  background-color: rgb(226, 111, 6);
+  color: white;
+  border-radius: 35px;
+  box-shadow: 4px 6px 12px -2px #494949;
+}
+.search-blog {
+  margin: 20px;
+  width: 450px;
+  padding: 3px;
+  border-radius: 4px;
+}
+.email-newsletter {
+  border-radius: 4px;
+  margin: 20px;
+  width: 300px;
+  height: 45px;
+  border-color: white;
+  background: linear-gradient(75deg, rgb(201, 83, 5), rgb(248, 165, 39));
+}
+.email-newsletter::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+.subscribe-newsletter {
+  background: whitesmoke !important;
+  text-align: center !important;
+  font-size: 1rem !important;
+  color: #282929 !important;
+  border-radius: 4px !important;
+  margin: 20px !important;
+  width: 300px !important;
+  height: 45px !important;
+}
+.newsletter-container {
+  margin: 20px;
+  width: 450px;
+  border-radius: 7px;
+  padding: 50px;
+  background: linear-gradient(75deg, rgb(201, 83, 5), rgb(248, 165, 39));
+}
+.blog-download {
+  background: linear-gradient(
+    75deg,
+    rgb(112, 173, 71),
+    rgb(48, 175, 168),
+    rgb(0, 176, 240)
+  );
+  margin: 20px;
+  width: 450px;
+  border-radius: 7px;
+  padding: 40px;
+}
+
+/* End of Blog */
 .newcss {
   font-size: 2rem;
   font-family: "Oswald-Regular";
