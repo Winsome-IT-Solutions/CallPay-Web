@@ -1030,3 +1030,19 @@ button:focus {
   margin: 0 auto;
   width: 60px;
 }
+
+.pagination-blog a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.pagination-blog a.active {
+  background-color: rgb(123, 146, 250);
+  color: white;
+}
+
+.pagination-blog a:hover:not(.active) {
+  background-color: #ddd;
+}
