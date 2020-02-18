@@ -750,7 +750,7 @@ button:focus {
 }
 
 .center-slider .slick-center {
-  transform: scale(1.15);
+  transform: scale(1.05);
   opacity: 1;
 }
 
